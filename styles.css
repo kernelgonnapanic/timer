@@ -1,17 +1,24 @@
-.hello {
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.timer {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.timer--choose-time {
+  display: flex;
+  flex-direction: row;
 }
 
 .button {
-    line-height: 20px;
-    border: 1px solid green;
-    border-radius: 10%;
-    color: green;
-    margin-top: 20px;
-    cursor: pointer;
+  line-height: 20px;
+  border: 1px solid green;
+  border-radius: 10%;
+  color: green;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 2px;
+  margin: 10px;
 }
